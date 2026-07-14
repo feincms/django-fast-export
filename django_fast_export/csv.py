@@ -3,7 +3,6 @@ import csv
 from django.http import StreamingHttpResponse
 from django.utils.text import capfirst, slugify
 
-
 __all__ = ["StreamingCSVResponse", "all_verbose_names", "all_values"]
 
 
