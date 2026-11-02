@@ -18,7 +18,7 @@ repos:
       - id: django-upgrade
         args: [--target-version, "3.2"]
   - repo: https://github.com/pycqa/isort
-    rev: 10.0.0b1
+    rev: 10.0.0b2
     hooks:
       - id: isort
         args: [--profile=black, --combine-as]
@@ -27,7 +27,7 @@ repos:
     hooks:
       - id: black
   - repo: https://github.com/pycqa/flake8
-    rev: 7.4.1
+    rev: 7.5.0
     hooks:
       - id: flake8
         args: ["--ignore=E203,E501,W503"]
